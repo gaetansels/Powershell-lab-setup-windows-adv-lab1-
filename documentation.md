@@ -15,7 +15,11 @@ Below my lab setup :
 - Install New role -> AD-Domain-Services
 - Upgrade server_core to DC in the new forest
 
+Note: The server is not online, so I cannot update it yet or install packages.
+This is why I will be using external powershell ISE until it is. 
+
+
 ##Change Hostname 
-'''powershell 
-'get-help rename-computer -examples'  
-`get-help rename-computer -examples` 
+`get-help rename-computer -examples` --> this gives examples we can use and addapt to what we need 
+
+![something](images/winadv_lab1_p2.png)
