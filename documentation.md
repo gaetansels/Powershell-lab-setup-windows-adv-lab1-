@@ -39,3 +39,7 @@ The following command was used :
 `set-DnsClientServerAddress -InterfaceIndex 6 -ServerAddresses ("127.0.0.1")`
 
 ![something](images/winadv_lab1_p3.png)
+
+## forest + upgrade to DC
+
+`Install-ADDSForest -DomainName "LOCAL.TEST" -InstallDNS` --> this is default and minimal version 
