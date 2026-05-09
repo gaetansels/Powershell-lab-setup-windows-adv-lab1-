@@ -14,3 +14,6 @@ Below my lab setup :
 - update the server after installation --> best practice
 - Install New role -> AD-Domain-Services
 - Upgrade server_core to DC in the new forest
+
+##Change Hostname 
+'get-help rename-computer -examples'  
