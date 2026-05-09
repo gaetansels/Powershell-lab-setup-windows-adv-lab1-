@@ -31,5 +31,11 @@ If you want to know which interface you need to install the IP.
 `get-help New-netIPAddress -Examples`--> this gives examples we can use and adapt to what we need 
 If there are no examples, we can use  `Update-Help`, make sure to execute it as an administrator. 
 
+The following command was used : 
+`New-NetIPAddress -InterfaceIndex 6 -IPAddress 192.168.153.1 -PrefixLength 24 -DefaultGateway 192.168.153.1 `
+
+## DNS
+
+`set-DnsClientServerAddress -InterfaceIndex 6 -ServerAddresses ("127.0.0.1")`
 
 ![something](images/winadv_lab1_p3.png)
