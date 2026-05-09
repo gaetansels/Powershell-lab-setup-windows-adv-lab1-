@@ -42,4 +42,4 @@ The following command was used :
 
 ## forest + upgrade to DC
 
-`Install-ADDSForest -DomainName "LOCAL.TEST" -InstallDNS` --> this is default and minimal version 
+`Install-ADDSForest -DomainName "LOCAL.TEST" -InstallDNS` --> this is the default and minimal version 
