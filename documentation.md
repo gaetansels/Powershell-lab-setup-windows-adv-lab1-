@@ -16,4 +16,5 @@ Below my lab setup :
 - Upgrade server_core to DC in the new forest
 
 ##Change Hostname 
+
 'get-help rename-computer -examples'  
