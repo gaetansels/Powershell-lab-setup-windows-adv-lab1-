@@ -54,4 +54,4 @@ The following command was used :
 # Rename Client computer 
 
 Go to PowerShell and type : 
-'test'
+`Rename-computer -newName Client1`
