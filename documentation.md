@@ -19,6 +19,8 @@ Below my lab setup :
 ##Change Hostname 
 `get-help rename-computer -examples` --> this gives examples we can use and adapt to what we need 
 
+`get-help rename-computer -examples`
+
 ![something](images/winadv_lab1_p2.png)
 
 ## Install New role -> AD-Domain-Services
