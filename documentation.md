@@ -37,7 +37,7 @@ If you want to know which interface you need to install the IP.
 If there are no examples, we can use  `Update-Help`, make sure to execute it as an administrator. 
 
 The following command was used : 
-`New-NetIPAddress -InterfaceIndex 6 -IPAddress 192.168.153.1 -PrefixLength 24 -DefaultGateway 192.168.153.1 `
+`New-NetIPAddress -InterfaceIndex 6 -IPAddress 192.168.153.200 -PrefixLength 24 -DefaultGateway 192.168.153.254 `
 
 ## DNS
 
