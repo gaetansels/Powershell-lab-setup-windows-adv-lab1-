@@ -63,4 +63,8 @@ Go to PowerShell and type :
 
 ## Add client to domain 
 
-...
+`Add-Computer -DomainName LOCAL.TEST -Restart` 
+
+![something](images/winadv_lab1_p4.png)
+
+But as you can see there are issues ... 
