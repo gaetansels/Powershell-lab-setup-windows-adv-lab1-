@@ -36,6 +36,8 @@ If you want to know which interface you need to install the IP.
 `get-help New-netIPAddress -Examples`--> this gives examples we can use and adapt to what we need 
 If there are no examples, we can use  `Update-Help`, make sure to execute it as an administrator. 
 
+`Get-NetAdapter` --> this is how you know the interface card is  (ifIndex)
+
 The following command was used : 
 `New-NetIPAddress -InterfaceIndex 6 -IPAddress 192.168.153.200 -PrefixLength 24 -DefaultGateway 192.168.153.254 `
 
