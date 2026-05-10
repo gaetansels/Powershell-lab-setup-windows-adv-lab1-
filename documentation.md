@@ -61,6 +61,6 @@ Go to PowerShell and type :
 
 2) `New-NetIPAddress -InterfaceIndex 11 -IPAddress 192.168.153.201 -PrefixLength 24 -DefaultGateway 192.168.153.254 `
 
-## add client to domain 
+## Add client to domain 
 
 ...
