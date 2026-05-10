@@ -55,3 +55,12 @@ The following command was used :
 
 Go to PowerShell and type : 
 `Rename-computer -newName Client1`
+
+# Add a static IP address to the client 
+1) `Get-NetAdapter` 
+
+2) `New-NetIPAddress -InterfaceIndex 11 -IPAddress 192.168.153.201 -PrefixLength 24 -DefaultGateway 192.168.153.254 `
+
+#add client to domain 
+
+...
