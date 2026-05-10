@@ -19,9 +19,12 @@ Below my lab setup :
 ##Change Hostname 
 `get-help rename-computer -examples` --> this gives examples we can use and adapt to what we need 
 
-`get-help rename-computer -examples`
+`Rename-Computer -NewName "DC1"-Restart`
 
 ![something](images/winadv_lab1_p2.png)
+
+*Note:** Omitted `-DomainCredential` parameter as the server is still in a WORKGROUP. This parameter is only needed when renaming domain-joined computers. Local admin rights are sufficient here since no domain exists yet—we're creating it in the next step!
+
 
 ## Install New role -> AD-Domain-Services
 `Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools`
