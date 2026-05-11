@@ -67,4 +67,3 @@ Go to PowerShell and type :
 
 ![something](images/winadv_lab1_p4.png)
 
-But as you can see there are issues ... 
