@@ -103,8 +103,8 @@ The client must point to the Domain Controller for DNS resolution (required for 
 
 To resolve DNS queries that fall outside your own managed zones, you must configure external DNS servers as forwarders in your DNS server.
 
-Add-DnsServerForwarder -IPAddress "8.8.8.8"
-Add-DnsServerForwarder -IPAddress "8.8.4.4"
+`Add-DnsServerForwarder -IPAddress "8.8.8.8"`
+`Add-DnsServerForwarder -IPAddress "8.8.4.4"`
 
 ![something](images/winadv_lab1_p8.png)
 
