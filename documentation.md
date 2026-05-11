@@ -68,3 +68,16 @@ Go to PowerShell and type :
 ![something](images/winadv_lab1_p4.png)
 
 make sure to add @LOCAL.TEST because you need admin access to add something to the domain and this refers to the admin of that domain
+
+## RSAT 
+
+Before I can download anything or add any services, I need a connection. 
+I need to get this done by configuring the DHCP server settings. 
+
+in the browser 192.168.153.254 and you will be able to login
+
+Services --> DHCP server
+
+![something](images/winadv_lab1_p5.png)
+
+...
