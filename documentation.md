@@ -81,4 +81,11 @@ Services --> DHCP server
 ![something](images/winadv_lab1_p5.png)
 
 ...
+
+## DNS and forwarding
+
+![something](images/winadv_lab1_p6.png)
+
+The DNS server (192.168.153.200) cannot resolve queries for external domains (such as www.howest.be) because no forwarders have been configured and the root hints are likely not functioning correctly.
+
 ## RSAT 
