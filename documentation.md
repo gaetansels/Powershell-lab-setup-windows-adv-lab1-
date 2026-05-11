@@ -61,7 +61,7 @@ Go to PowerShell and type :
 
 2) `New-NetIPAddress -InterfaceIndex 11 -IPAddress 192.168.153.201 -PrefixLength 24 -DefaultGateway 192.168.153.254 `
 
-This is putting a static IP on the client
+This is putting a static IP on the client, which is needed for the lab. 
 
 ## Add client to domain 
 
