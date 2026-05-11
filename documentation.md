@@ -109,6 +109,9 @@ Configure external DNS forwarders to handle non-authoritative queries.
 `Add-DnsServerForwarder -IPAddress "8.8.8.8"`
 `Add-DnsServerForwarder -IPAddress "8.8.4.4"`
 
+These have to be configured on the DC because this is also the DNS server. 
+
+![something](images/winadv_lab1_p8.png)
 # Verify
 `Get-DnsServerForwarder`
 
