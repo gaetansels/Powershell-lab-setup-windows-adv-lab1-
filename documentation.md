@@ -82,6 +82,9 @@ Services --> DHCP server
 
 ![something](images/winadv_lab1_p5.png)
 
+
+![something](images/winadv_lab1_p7.png)
+
 ...
 
 ## DNS and forwarding
