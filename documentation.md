@@ -69,7 +69,7 @@ Go to PowerShell and type :
 
 make sure to add @LOCAL.TEST because you need admin access to add something to the domain and this refers to the admin of that domain
 
-## RSAT 
+## (pre-RSAT) DHCP server and connection  
 
 Before I can download anything or add any services, I need a connection. 
 I need to get this done by configuring the DHCP server settings. 
@@ -81,3 +81,4 @@ Services --> DHCP server
 ![something](images/winadv_lab1_p5.png)
 
 ...
+## RSAT 
