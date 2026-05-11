@@ -91,20 +91,26 @@ We add the IP address of the server 198.168.153.200 to the DNS server; this is s
 
 ![something](images/winadv_lab1_p6.png)
 
-**The Problem:**
-The DNS server (192.168.153.200) cannot resolve queries for external domains (such as www.howest.be) because:
-- No forwarders have been configured
-- Root hints are likely not functioning correctly (blocked by pfSense/firewall, or no direct internet route)
-  
-In other words:
-The client must point to the Domain Controller for DNS resolution (required for Active Directory), but the DC only knows about your local zone (LOCAL.TEST). When it receives a query for an external domain, it has nowhere to send that query unless forwarders are configured.
+## DNS Forwarders Configuration
 
-**Solution:**
+### Problem Statement
+The DNS server (192.168.153.200) cannot resolve external domains because:
+- No forwarders configured
+- Root hints not functioning (firewall blocked)
+- Clients require DC for AD DNS resolution
 
-To resolve DNS queries that fall outside your own managed zones, you must configure external DNS servers as forwarders in your DNS server.
+### Solution
+Configure external DNS forwarders to handle non-authoritative queries.
 
+### Implementation
+
+#### PowerShell Commands
+# Add Google DNS forwarders
 `Add-DnsServerForwarder -IPAddress "8.8.8.8"`
 `Add-DnsServerForwarder -IPAddress "8.8.4.4"`
+
+# Verify
+`Get-DnsServerForwarder`
 
 ![something](images/winadv_lab1_p8.png)
 
