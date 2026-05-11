@@ -85,7 +85,7 @@ Services --> DHCP server
 
 ![something](images/winadv_lab1_p7.png)
 
-...
+We add the IP address of the server 198.168.153.200 to the DNS server; this is so that the client will ask through the server for any and all DNS questions.
 
 ## DNS and forwarding
 
