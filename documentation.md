@@ -67,3 +67,4 @@ Go to PowerShell and type :
 
 ![something](images/winadv_lab1_p4.png)
 
+make sure to add @LOCAL.TEST because you need admin access to add something to the domain and this refers to the admin of that domain
