@@ -87,7 +87,7 @@ Services --> DHCP server
 
 We add the IP address of the server 198.168.153.200 to the DNS server; this is so that the client will ask through the server for any and all DNS questions.
 
-## DNS and forwarding
+## TROUBLE SHOOTING
 
 ![something](images/winadv_lab1_p6.png)
 
@@ -118,3 +118,5 @@ These have to be configured on the DC because this is also the DNS server.
 ![something](images/winadv_lab1_p8.png)
 
 ## RSAT 
+
+
