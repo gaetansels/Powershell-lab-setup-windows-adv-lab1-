@@ -110,13 +110,15 @@ PowerShell Commands
 
 These have to be configured on the DC because this is also the DNS server. 
 
-![something](images/winadv_lab1_p8.png)
-
 `Get-DnsServerForwarder`
-
-![something](images/winadv_lab1_p8.png)
-
 
 ## RSAT 
 
+![something](images/winadv_lab1_p8.png)
 
+search for: "optionele onderdelen" (optional features) --> click on "vieuw features"
+
+search for "rsat" and add all the features you need
+
+
+![something](images/winadv_lab1_p9png)
