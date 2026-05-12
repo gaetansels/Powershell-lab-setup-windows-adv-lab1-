@@ -91,31 +91,31 @@ We add the IP address of the server 198.168.153.200 to the DNS server; this is s
 
 ![something](images/winadv_lab1_p6.png)
 
-## DNS Forwarders Configuration
+DNS Forwarders Configuration
 
-### Problem Statement
+Problem Statement
 The DNS server (192.168.153.200) cannot resolve external domains because:
 - No forwarders configured
 - Root hints not functioning (firewall blocked)
 - Clients require DC for AD DNS resolution
 
-### Solution
+Solution
 Configure external DNS forwarders to handle non-authoritative queries.
 
-### Implementation
+Implementation
 
-#### PowerShell Commands
-# Add Google DNS forwarders
+PowerShell Commands 
 `Add-DnsServerForwarder -IPAddress "8.8.8.8"`
 `Add-DnsServerForwarder -IPAddress "8.8.4.4"`
 
 These have to be configured on the DC because this is also the DNS server. 
 
 ![something](images/winadv_lab1_p8.png)
-# Verify
+
 `Get-DnsServerForwarder`
 
 ![something](images/winadv_lab1_p8.png)
+
 
 ## RSAT 
 
