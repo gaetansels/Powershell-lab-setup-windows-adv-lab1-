@@ -161,6 +161,10 @@ Server manager --> manage --> add server--> name (CN) : DC1 --> click and and ad
 
 - Can retrieve all running services
 
+`Get-Command *service*`
+
+`Get-Help Get-Service -examples`
+
 ![something](images/winadv_lab1_p15.png)
 
 
