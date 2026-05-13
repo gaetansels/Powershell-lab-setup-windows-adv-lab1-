@@ -130,11 +130,11 @@ As you can see from the result, the client has a server manager; the server stil
 
 MMC is used for tools to manage both server and client. 
 
-![something](images/winadv_lab1_p10png)
+![something](images/winadv_lab1_p10.png)
 
-You need to find it by searching : mmc**.exe**
-
-
+You need to find it by searching: mmc**.exe**
 
 
-![something](images/winadv_lab1_p11png)
+
+
+![something](images/winadv_lab1_p11.png)
