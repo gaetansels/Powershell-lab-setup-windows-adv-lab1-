@@ -141,6 +141,8 @@ Computers"
 
 ![something](images/winadv_lab1_p11.png)
 
+## Powershell 
+
 ![something](images/winadv_lab1_p12.png)
 
 ![something](images/winadv_lab1_p13.png)
