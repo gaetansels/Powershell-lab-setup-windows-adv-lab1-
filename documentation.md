@@ -122,3 +122,9 @@ search for "rsat" and add all the features you need
 
 
 ![something](images/winadv_lab1_p9png)
+
+
+As you can see from the result, the client has a server manager; the server still needs to be added. 
+
+
+![something](images/winadv_lab1_p10png)
