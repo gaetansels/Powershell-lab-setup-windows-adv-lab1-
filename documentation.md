@@ -134,7 +134,11 @@ MMC is used for tools to manage both server and client.
 
 You need to find it by searching: mmc**.exe**
 
+File --> add/Remove snap-in... 
 
-
+Because we installed RSAT you will find more options , for this lab we will only be adding "Active Directory Users and
+Computers"
 
 ![something](images/winadv_lab1_p11.png)
+
+![something](images/winadv_lab1_p12.png)
