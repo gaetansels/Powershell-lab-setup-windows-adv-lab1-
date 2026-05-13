@@ -143,6 +143,8 @@ Computers"
 
 ## Powershell 
 
+We will be using Enter-PSSession.
+
 ![something](images/winadv_lab1_p12.png)
 
 ![something](images/winadv_lab1_p13.png)
