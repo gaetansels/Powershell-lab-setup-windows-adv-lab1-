@@ -161,7 +161,7 @@ Server manager --> manage --> add server--> name (CN) : DC1 --> click and and ad
 
 - Can retrieve all running services
 
-`Get-Command *service*`
+`Get-Command *service*` --> joker card to get all everything with the word service
 
 `Get-Help Get-Service -examples`
 
