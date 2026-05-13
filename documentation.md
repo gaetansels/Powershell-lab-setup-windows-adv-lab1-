@@ -147,4 +147,12 @@ We will be using Enter-PSSession.
 
 ![something](images/winadv_lab1_p12.png)
 
+## adding the server 
+
+**In the client:**
+
+Server manager --> manage --> add server--> name (CN) : DC1 --> click and and add it with the arrow to the right + OK 
+
 ![something](images/winadv_lab1_p13.png)
+
+![something](images/winadv_lab1_p14.png)
