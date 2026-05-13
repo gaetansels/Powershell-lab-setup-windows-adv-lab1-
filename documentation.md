@@ -141,7 +141,7 @@ Computers"
 
 ![something](images/winadv_lab1_p11.png)
 
-## Powershell 
+## Remote Server Administration  
 
 We will be using Enter-PSSession.
 
@@ -156,3 +156,12 @@ Server manager --> manage --> add server--> name (CN) : DC1 --> click and and ad
 ![something](images/winadv_lab1_p13.png)
 
 ![something](images/winadv_lab1_p14.png)
+
+## Powershell 
+
+➢ Enkel alle draaiende services kan bekomen
+➢ De eerste 5 draaiende services kan bekomen
+➢ Alle mogelijke data van de Word en Powerpoint processen toont
+▪ Zorg dat je minstens 1 Word- en Powerpoint-document geopend hebt
+➢ Een lijst van IPv4 adressen op je localhost kan tonen in tabelvorm gesorteerd op interfaceindex
+➢ 5 eigenschappen, naar eigen keuze, van je lokale schijf in tabelvorm kan tone
