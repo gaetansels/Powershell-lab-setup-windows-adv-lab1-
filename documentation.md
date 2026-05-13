@@ -126,5 +126,15 @@ search for "rsat" and add all the features you need
 
 As you can see from the result, the client has a server manager; the server still needs to be added. 
 
+## MMC
+
+MMC is used for tools to manage both server and client. 
 
 ![something](images/winadv_lab1_p10png)
+
+You need to find it by searching : mmc**.exe**
+
+
+
+
+![something](images/winadv_lab1_p11png)
