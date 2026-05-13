@@ -121,7 +121,7 @@ search for: "optionele onderdelen" (optional features) --> click on "vieuw featu
 search for "rsat" and add all the features you need
 
 
-![something](images/winadv_lab1_p9png)
+![something](images/winadv_lab1_p9.png)
 
 
 As you can see from the result, the client has a server manager; the server still needs to be added. 
