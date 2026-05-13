@@ -160,6 +160,13 @@ Server manager --> manage --> add server--> name (CN) : DC1 --> click and and ad
 ## Powershell 
 
 - Can retrieve all running services
+
+![something](images/winadv_lab1_p15.png)
+
+
+![something](images/winadv_lab1_p16.png)
+
+
 - Can retrieve the first 5 running services
 - Displays all available data for the Word and PowerPoint processes
 - Ensure at least one Word document and one PowerPoint document are open
